@@ -1,0 +1,298 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Aprendizado</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			.hlinha{
+				text-align: center;
+				padding-bottom: 50px;
+			}
+		
+	        body {
+	            font-family: Arial, sans-serif;
+	            background-color: #f4f4f4;
+	            margin: 0;
+	            padding: 0;
+	        }
+
+	        .timeline {
+	            position: relative;
+	            max-width: 1200px;
+	            margin: 0 auto;
+	        }
+
+	        .timeline::after {
+	            content: '';
+	            position: absolute;
+	            width: 6px;
+	            background-color: #2196F3;
+	            top: 0;
+	            bottom: 0;
+	            left: 50%;
+	            margin-left: -3px;
+	        }
+
+	        .container {
+	            padding: 10px 40px;
+	            position: relative;
+	            background-color: inherit;
+	            width: 50%;
+	        }
+
+	        .container.left {
+	            right: -50%;
+	        }
+
+	        .container.right {
+	            left: 50%;
+	        }
+
+	        .container::after {
+	            content: '';
+	            position: absolute;
+	            width: 25px;
+	            height: 25px;
+	            right: 62px;
+	            background-color: white;
+	            border: 4px solid #2196F3;
+	            top: 15px;
+	            border-radius: 50%;
+	            z-index: 1;
+	        }
+
+	        .right::after {
+	            left: -13px;
+	        }
+	        .left::after {
+	            left: -13px;
+	        }
+
+	        .content {
+	            padding: 20px 30px;
+	            background-color: white;
+	            position: relative;
+	            border-radius: 6px;
+	        }
+
+	        .container.left .content {
+	            margin-left: 60;
+	        }
+
+	        .container.right .content {
+	            margin-left: 60px;
+	        }
+
+	        .date {
+	            font-weight: bold;
+	            color: #2196F3;
+	        }
+
+	        @media screen and (max-width: 600px) {
+	            .timeline::after {
+	                left: 31px;
+	            }
+
+	            .container {
+	                width: 100%;
+	                padding-left: 70px;
+	                padding-right: 25px;
+	            }
+
+	            .container::after {
+	                left: 60px;
+	                right: auto;
+	            }
+
+
+
+
+	            * {
+		            margin: 0;
+		            padding: 0;
+		            box-sizing: border-box;
+		        }
+
+		        body {
+		            font-family: Arial, sans-serif;
+		            background-color: #f0f0f0;
+		            color: #333;
+		            display: flex;
+		            justify-content: center;
+		            align-items: center;
+		            height: 100vh;
+		        }
+
+		        .container1 {
+		            max-width: 800px;
+		            width: 100%;
+		            background-color: #fff;
+		            padding: 20px;
+		            border-radius: 10px;
+		            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		        }
+
+		        h1 {
+		            text-align: center;
+		            margin-bottom: 20px;
+		        }
+
+		        .language-card {
+		            margin-bottom: 20px;
+		            background-color: #eaeaea;
+		            padding: 15px;
+		            border-radius: 5px;
+		            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		        }
+
+		        .language-card h2 {
+		            margin-bottom: 10px;
+		        }
+
+		        .language-profile {
+		            display: none;
+		            margin-top: 10px;
+		            background-color: #f9f9f9;
+		            padding: 10px;
+		            border-radius: 5px;
+		            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+		        }
+
+		        button {
+		            padding: 8px 12px;
+		            background-color: #007BFF;
+		            color: white;
+		            border: none;
+		            border-radius: 4px;
+		            cursor: pointer;
+		        }
+
+		        button:hover {
+		            background-color: #0056b3;
+		        }
+
+	        }
+    	</style>
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main"class="content">
+						<div class="inner">
+								<section id="banner">
+									<div class="content">
+										<header>
+											<h1>Desenvolvimento da IA</h1>
+										</header>
+											<p>A Inteligência Artificial começou como um conceito acadêmico na década de 1950, quando pesquisadores como Alan Turing e John McCarthy começaram a explorar a ideia de máquinas capazes de simular a inteligência humana. Por décadas, a IA permaneceu limitada a experimentos teóricos, devido à falta de poder de processamento, dados disponíveis e algoritmos eficientes.</p>
+
+											<p>O avanço da IA se acelerou nas últimas décadas graças a três fatores principais:</p>
+
+											<ul>
+										        <li>Poder de processamento:Computadores modernos e GPUs permitem realizar bilhões de cálculos por segundo, necessários para treinar modelos complexos de IA.</li>
+										        <li>Big Data:A enorme quantidade de dados gerados diariamente (imagens, textos, vídeos, sensores) fornece material para que os sistemas de IA aprendam padrões e tomem decisões precisas.</li>
+										        <li>Algoritmos avançados: Técnicas de aprendizado de máquina (machine learning) e redes neurais profundas (deep learning) permitem que a IA aprenda sozinha e melhore seu desempenho com o tempo.</li>
+											</ul>
+									</div>
+									<span class="image main"><img src="images/10.jpg" alt="" /></span>
+								</section>
+								<hr class="major" />
+								<div class="linhadotempo">	
+									<h2 class="hlinha">linha do tempo</h2>
+									<div class="timeline">
+									    <div class="container right">
+								            <div class="content">
+								                <p class="date">1950</p>
+								                <h2>Teste de Turing</h2>
+								                <p>Alan Turing propõe um teste para avaliar se uma máquina pode pensar como um humano.</p>
+								            </div>
+								        </div>
+								        <div class="container left">
+								            <div class="content">
+								                <p class="date">1956</p>
+								                <h2>Nascimento da IA</h2>
+								                <p>John McCarthy e outros cientistas realizam a primeira conferência de IA em Dartmouth, formalizando a área.</p>
+								            </div>
+								        </div>
+								        <div class="container right">
+								            <div class="content">
+								                <p class="date">1960-70</p>
+								                <h2>Primeiros programas de IA:</h2>
+								                <p>Desenvolvimento de sistemas que resolvem problemas lógicos e jogam xadrez.</p>
+								            </div>
+								        </div>
+								        <div class="container left">
+								            <div class="content">
+								                <p class="date">Décadas de 1980-90</p>
+								                <h2>Redes neurais</h2>
+								                <p>Surgem algoritmos capazes de aprender com dados, embora limitados pelo processamento da época.</p>
+								            </div>
+								        </div>
+								        <div class="container right">
+								            <div class="content">
+								                <p class="date">2000</p>
+								                <h2>Deep Learning:</h2>
+								                <p>om dados massivos e computadores mais rápidos, surgem aplicações práticas como reconhecimento de voz, tradução automática e carros autônomos.</p>
+								            </div>
+								        </div>
+								        <div class="container left">
+								            <div class="content">
+								                <p class="date">2020</p>
+								                <h2>IA generativa</h2>
+								                <p>Modelos como ChatGPT, DALL·E e outros transformam a forma como interagimos com textos, imagens e ideias.</p>
+								            </div>
+								        </div>
+								        
+								    </div> 
+							    </div>							   
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+								        <li><a href="index.html">Início</a></li>
+								        <li><a href="1.html">Desenvolvimento</a></li>
+								        <li><a href="2.html">Aprendizado e Decisões</a></li>
+								        <li><a href="4.html">Pilares da IA</a></li>
+								        <li><a href="5.html">Recursos</a></li>
+									</ul>
+								</nav>
+						</div>
+					</div>
+			</div>
+
+		<!-- Scripts -->
+			 <script>
+		        function toggleProfile(profileId) {
+		            const profile = document.getElementById(profileId);
+		            if (profile.style.display === "block") {
+		                profile.style.display = "none";
+		            } else {
+		                profile.style.display = "block";
+		            }
+		        }
+		    </script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
